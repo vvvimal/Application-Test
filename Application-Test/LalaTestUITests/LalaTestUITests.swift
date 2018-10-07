@@ -99,32 +99,6 @@ class LalaTestUITests: XCTestCase {
         }
     }
     
-//    func testPeekAPop(){
-//        
-//        let app = XCUIApplication()
-//        let deliveriestableviewTable = app.tables["DeliveriesTableView"]
-//        XCTAssertTrue(deliveriestableviewTable.exists, "The deliveries tableview exists")
-//        
-//        // Get an array of cells
-//        let tableCells = deliveriestableviewTable.cells
-//        
-//        sleep(5)
-//        
-//        if tableCells.count > 0 {
-//            
-//            let firstCell = tableCells.element(boundBy: 0)
-//            XCTAssertTrue(firstCell.exists, "The \(0) cell is in place on the table")
-//            // Does this actually take us to the next screen
-//            let start = firstCell.coordinate(withNormalizedOffset: CGVector(dx: 0, dy: 0))
-//            let finish = firstCell.coordinate(withNormalizedOffset: CGVector(dx: 0, dy: 0))
-//            start.press(forDuration: 2, thenDragTo: finish)
-//
-//            
-//        } else {
-//            XCTAssert(false, "Was not able to find any table cells")
-//        }
-//    }
-    
     func testNoDataInitialScreen() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
